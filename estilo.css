@@ -1,0 +1,115 @@
+/* Configuração geral do corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e elegante */
+    background-color: #ffffff; /* Fundo branco */
+    color: #333333; /* Texto escuro para contraste */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Aumenta o espaço entre linhas */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 3em; /* Tamanho maior para destaque */
+    color: #800000; /* Vinho escuro */
+    text-align: center;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    text-transform: uppercase; /* Letras maiúsculas para sofisticação */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+/* Estilo para subtítulos */
+h2 {
+    color: #800000; /* Vinho escuro */
+    font-size: 2em; /* Tamanho do subtítulo */
+    border-bottom: 2px solid #800000; /* Sublinhado em vinho */
+    padding-bottom: 10px; /* Espaço abaixo do subtítulo */
+    margin-top: 20px; /* Espaço acima do subtítulo */
+}
+
+/* Estilo para formulários */
+form {
+    margin-bottom: 30px; /* Aumenta o espaço abaixo do formulário */
+    background-color: #f9f9f9; /* Fundo claro para o formulário */
+    padding: 20px; /* Adiciona espaço interno */
+    border-radius: 10px; /* Arredonda os cantos do formulário */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+}
+
+/* Estilo para rótulos */
+label {
+    display: block;
+    margin-top: 15px; /* Espaço acima do rótulo */
+    font-weight: bold; /* Destaca os rótulos */
+    color: #800000; /* Cor vinho para os rótulos */
+}
+
+/* Estilo para campos de entrada e seleção */
+input, select {
+    padding: 12px; /* Aumenta o espaço interno */
+    width: 100%; /* Largura total */
+    margin-top: 8px; /* Espaço acima do campo */
+    border: 1px solid #800000; /* Borda vinho */
+    border-radius: 5px; /* Arredonda os cantos */
+    background-color: #ffffff; /* Fundo branco */
+    color: #333333; /* Cor do texto escuro */
+    transition: border-color 0.3s ease; /* Transição suave ao focar */
+}
+
+/* Estilo de foco para campos de entrada */
+input:focus, select:focus {
+    border-color: #ff4500; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+/* Estilo para botões */
+button {
+    background-color: #800000; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 12px 20px; /* Aumenta o espaço interno */
+    margin-top: 15px; /* Espaço acima do botão */
+    cursor: pointer; /* Indica que é clicável */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.2s; /* Transições suaves */
+}
+
+/* Efeito de hover para botões */
+button:hover {
+    background-color: #a52a2a; /* Vinho mais claro ao passar o mouse */
+    transform: translateY(-2px); /* Leve elevação ao passar o mouse */
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as células */
+    margin-top: 30px; /* Aumenta o espaço acima da tabela */
+}
+
+/* Estilo para cabeçalhos e células da tabela */
+th, td {
+    border: 1px solid #800000; /* Borda vinho para células */
+    padding: 15px; /* Aumenta o espaço interno */
+    text-align: left; /* Alinha texto à esquerda */
+}
+
+/* Estilo para cabeçalhos da tabela */
+th {
+    background-color: #f2f2f2; /* Cor de fundo clara para cabeçalho */
+    color: #800000; /* Texto vinho para cabeçalho */
+    font-weight: bold; /* Destaca cabeçalhos */
+}
+
+/* Estilo para linhas alternadas da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo para linhas pares */
+}
+
+/* Estilo para o elemento da lista de pedidos */
+#lista-pedidos {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as células */
+    margin-top: 20px;
+}
